@@ -6,11 +6,11 @@
   --primary-color-logo: #000000;
   --background-color-hero-batton: #188ce8;
   --background-color-hero: #2f303a;
-  --border-portfolio: #EEEEEE;
-  --header-color-border: #ECECEC;
-  --background-color-profess: #F5F4FA;
+  --border-portfolio: #eeeeee;
+  --header-color-border: #ececec;
+  --background-color-profess: #f5f4fa;
   --portfolio-background: #f5f5f5;
-  --svg-color: #AFB1B8;
+  --svg-color: #afb1b8;
   --icon-footer-bg: rgba(255, 255, 255, 0.1);
 }
 
@@ -68,7 +68,7 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-  
+
 .logo {
   margin-right: 93px;
   padding-top: 24px;
@@ -142,7 +142,7 @@ ul {
 
 .telephone-mail:hover,
 .telephone-mail:focus {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .icon-header {
   vertical-align: middle;
@@ -167,10 +167,8 @@ color: var(--accent-color);
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-    to right, #2f303a66 0%, #2f303a66 100%
-  ),
-    url('../images/hero.jpg');
+  background-image: linear-gradient(to right, #2f303a66 0%, #2f303a66 100%),
+    url("../images/hero.jpg");
   background-position: center;
 }
 
@@ -235,9 +233,9 @@ color: var(--accent-color);
 }
 
 .benefit-image {
-width: 65px;
-height: 70px;
-margin: 25px 102px;
+  width: 65px;
+  height: 70px;
+  margin: 25px 102px;
 }
 
 .benefits-list {
@@ -295,7 +293,6 @@ margin: 25px 102px;
   text-align: center;
 }
 
-
 .comanda-teams {
   display: flex;
 }
@@ -334,12 +331,12 @@ margin: 25px 102px;
   height: 44px;
   color: var(--svg-color);
   border-radius: 50%;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
-.social-icon { 
-  fill:currentColor;
+.social-icon {
+  fill: currentColor;
 }
 
 .social-item:hover,
@@ -361,7 +358,7 @@ margin: 25px 102px;
 }
 
 .clients-list {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -375,8 +372,6 @@ margin: 25px 102px;
 .clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
   justify-content: center;
 }
 .clients-link {
@@ -385,6 +380,7 @@ margin: 25px 102px;
   height: 92px;
   color: var(--svg-color);
   border: 1px solid var(--svg-color);
+  border-radius: 4px;
   align-items: center;
   justify-content: center;
 }
@@ -421,7 +417,6 @@ margin: 25px 102px;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
-  margin-bottom: 9px;
 }
 
 .contact-footer .link-footer:hover,
@@ -430,16 +425,21 @@ margin: 25px 102px;
 }
 
 .link-footer {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   text-decoration: none;
-  margin-bottom: 9px;
+  display: block;
+  margin-top: 9px;
 }
 .contact-footer .linkWhite:hover,
 .contact-footer .linkWhite:focus {
   color: var(--accent-color);
+}
+
+.address.footer {
 }
 
 /* PORTFOLIO */
@@ -478,7 +478,6 @@ margin: 25px 102px;
   letter-spacing: 0.03em;
   font-family: inherit;
   cursor: pointer;
-  font-family: inherit;+
   border: 1px solid transparent;
 }
 
@@ -494,11 +493,13 @@ margin: 25px 102px;
   padding-bottom: 0;
 }
 .card {
+  display: block;
   text-decoration: none;
 }
-.example:hover {
-  box-shadow:  1px 4px 6px rgba(0, 0, 0, 0.16),
-  0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+.card:hover,
+.card:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .card.text-portf {
@@ -529,7 +530,6 @@ margin: 25px 102px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
 
 .example:nth-child(3n) {
   margin-right: 0;
@@ -577,12 +577,12 @@ margin: 25px 102px;
   color: var(--primary-white-color);
   background-color: var(--icon-footer-bg);
   border-radius: 50%;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
-.footer-social-icon { 
-  fill:currentColor;
+.footer-social-icon {
+  fill: currentColor;
 }
 
 .footer-social-item:hover,
@@ -596,17 +596,17 @@ margin: 25px 102px;
 
 .footer-title {
   color: var(--primary-white-color);
-font-weight: 700;
-letter-spacing: 0.03em;
-font-family: inherit;
-margin-bottom: 20px;
-text-transform: uppercase;
-  }
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
 
-  .container.footer {
-    display: flex;
-  }
+.container.footer {
+  display: flex;
+}
 
-  .footer-link {
-    margin-left: 70px; 
-  }
+.footer-link {
+  margin-left: 70px;
+}
